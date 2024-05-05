@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Testing version control! Did it work?
+          One last test to see what happens..
         </p>
         <a
           className="App-link"
