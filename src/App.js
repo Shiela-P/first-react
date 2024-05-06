@@ -1,22 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+function buttonDoStuff(){
+  alert("I can make a message! So cool.");
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          One last test to see what happens..
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>HI THERE!</h1>
+        <p>figuring out how this works (React, that is)</p>
+        <button onClick={buttonDoStuff}>Click Me! I do stuff.</button>
       </header>
     </div>
   );
