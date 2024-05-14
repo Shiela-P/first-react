@@ -19,7 +19,9 @@ function makeAnImage(){
 return (
   <div>
     <img
-    src={imgAttributes.src}/>
+    src={imgAttributes.src}
+    alt={imgAttributes.alt}
+    width={imgAttributes.width}/>
   </div>
 )
 }
@@ -30,6 +32,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {makeAnImage()}
         <h1>HI THERE!</h1>
         <p>figuring out how this works (React, that is)</p>
         <button onClick={buttonDoStuff}>Click Me! I do stuff.</button>
