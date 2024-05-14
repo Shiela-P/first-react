@@ -11,12 +11,17 @@ function newButton(){
 
 const imgAttributes = {
   src: "/coolPic.jpg",
-  width: "50%"
+  width: "50%",
+  alt: "picture of an orange with blue skin"
 };
 
 function makeAnImage(){
-//CONTINUE WORKING HERE: make an image on the screen using 
-//imgAttributes
+return (
+  <div>
+    <img
+    src={imgAttributes.src}/>
+  </div>
+)
 }
 //Ternary operator refresh x ? y : z
 // if x is true, y       if x is false, z
