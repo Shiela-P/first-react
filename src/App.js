@@ -8,29 +8,24 @@ function buttonDoStuff(){
 function newButton(){
   alert("WOOOOOOOOOOOOOOOOOOH! :0");
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 
 const imgAttributes = {
   src: "/coolPic.jpg",
-  width: "50%",
-  alt: "picture of an orange with blue skin"
+  width: "50%"
 };
 
 function makeAnImage(){
 return (
   <div>
     <img
-    src={imgAttributes.src}
-    alt={imgAttributes.alt}
-    width={imgAttributes.width}/>
+    src={imgAttributes.src}/>
   </div>
 )
 }
-=======
->>>>>>> parent of 228afc9 (still playing around and learning react. Learning to use attributes)
-=======
->>>>>>> parent of 228afc9 (still playing around and learning react. Learning to use attributes)
+
+
 //Ternary operator refresh x ? y : z
 // if x is true, y       if x is false, z
 
