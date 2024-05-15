@@ -8,6 +8,7 @@ function buttonDoStuff(){
 function newButton(){
   alert("WOOOOOOOOOOOOOOOOOOH! :0");
 }
+<<<<<<< HEAD
 
 const imgAttributes = {
   src: "/coolPic.jpg",
@@ -25,6 +26,8 @@ return (
   </div>
 )
 }
+=======
+>>>>>>> parent of 228afc9 (still playing around and learning react. Learning to use attributes)
 //Ternary operator refresh x ? y : z
 // if x is true, y       if x is false, z
 
@@ -37,15 +40,8 @@ function App() {
         <p>figuring out how this works (React, that is)</p>
         <button onClick={buttonDoStuff}>Click Me! I do stuff.</button>
         <button onClick={newButton}>Howdy, I'm a brand new button. What do I do? Click to find out.</button>
-        <button onClick={buttonDoStuff}>blah blah blah</button>
       </header>
-
-      {/* Variable Attributes */}
-      <div>
-      
-      </div>
     </div>
-    
   );
 }
 
