@@ -9,6 +9,7 @@ function newButton(){
   alert("WOOOOOOOOOOOOOOOOOOH! :0");
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const imgAttributes = {
   src: "/coolPic.jpg",
@@ -26,6 +27,8 @@ return (
   </div>
 )
 }
+=======
+>>>>>>> parent of 228afc9 (still playing around and learning react. Learning to use attributes)
 =======
 >>>>>>> parent of 228afc9 (still playing around and learning react. Learning to use attributes)
 //Ternary operator refresh x ? y : z
